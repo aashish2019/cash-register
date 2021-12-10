@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description">
+            Enter the bill amount and cash given by the customer and know minimum number of notes to return. <br>
+           Please enter equal number of digits in bill amount and cash given. eg- 012 and 345.
+        </p>
+        <label for="bill-amount">Bill Amount:</label>
+        <input class = "inp"type="number" id="bill-amount"></input>
+        <label for="cash-given">Cash Given:</label>
+        <input class = "inp" type="number" id="cash-given"></input>
+        <button class ="chck-btn" id="check-button">Check</button>
+        <p id="error-message">
+            
+        </p>
+        <table class="change-table">
+            <caption></caption>
+            <tr>
+                <th>Number of Notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <script src="./app.js"></script>
+    <footer class="footer">
+        <div class="footer-header">Connect with me over here</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-inline"><a class="link" href="https://github.com/aashish2019" target="blank">Github</a></li>
+            <li class="list-inline"><a class="link"href="https://twitter.com/" target="blank">Twitter</a></li>
+            <li class="list-inline"><a class="link"href="https://www.linkedin.com//" target="blank">LinkedIn</a></li>
+        </ul>
+    </footer> 
+</body>
+</html>
